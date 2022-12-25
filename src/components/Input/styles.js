@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const InputContainer = styled.div`
 
     border: 1px solid #FAFAFA;
+    font-family: 'Chivo Mono', monospace;
     border-radius: 20px;
 
     height: 62px;

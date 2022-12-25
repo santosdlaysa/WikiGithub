@@ -1,19 +1,19 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ButtonContainer = styled.button`
+  background-color: #fafafa;
+  font-family: 'Chivo Mono', monospace;
+  border: 1px solid #fafafa;
+  border-radius: 20px;
 
-    background-color: #FAFAFA;
-    border: 1px solid #FAFAFA;
-    border-radius: 20px;
+  height: 62px;
+  width: 80%;
 
-    height: 62px;
-    width: 80%;
+  margin: 20px;
 
-    margin: 20px;
-
-    &: hover {
-        background-color: #FAFAFA40;
-        cursor: pointer;
-    }
-
+  &: hover {
+    background-color: #fafafa40;
+    cursor: pointer;
+    font-family: 'Chivo Mono', monospace;
+  }
 `
